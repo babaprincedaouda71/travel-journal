@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    width: 550px;
+    /* height: 704px; */
+    margin: auto;
+    background-color: #E5E5E5;
+}
+
+.container {
+    background-color: white;
+}
+
+.navbar {
+    height: 55px;
+    background-color: #F55A5A;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.navbar--img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 213px;
+    top: 16px;
+}
+
+.navbar--text {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 244px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.card {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.card--img {
+    border-radius: 5px;
+}
+
+.card--content {
+    margin-left: 20px;
+}
+
+.card--location {
+    margin-right: 12px;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+
+.card--view {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-bottom: 11px;
+}
+
+.card--title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-bottom: 25px;
+}
+
+.card--date {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+    margin-bottom: 12px;
+}
+
+.card--desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #2B283A;
+}
+
+.hr {
+    margin-bottom: 18px;
+    border: 1px solid #F5F5F5;
+}
